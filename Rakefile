@@ -9,7 +9,7 @@ task :hola do
   puts "hola de Rake!"
 end
 end
-namespace :db
+namespace :db do 
 task :environment do
   require_relative './config/environment'
 end
